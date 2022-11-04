@@ -1,0 +1,52 @@
+.gallery .thumbnails {
+    width: 100%;
+    margin-bottom: 5px;
+
+    overflow-y: scroll;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.gallery .thumbnails img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.gallery .tiles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.gallery .tiles .gallery-tile {
+    margin: 5px;
+    flex: 1 1 auto;
+
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.gallery .tiles .gallery-tile img {
+    width: 100%;
+}
+    
+.gallery .selected-image {
+    width: 100%;
+}
+
+.gallery .scroll-bar {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gallery .scroll-bar .gallery-caret {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8px;
+    border-radius: 4px;
+
+    top: 0px;
+}

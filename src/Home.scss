@@ -1,0 +1,66 @@
+$flex-snap: "600px";
+$font-snap: "768px";
+
+.home-page {
+    display: flex;
+    
+    a:hover {
+        text-decoration: none;
+    }
+
+    .section {
+        margin: 5px;
+        padding: 15px;
+        border-radius: 5px;
+        width: 300px;
+        flex: 0 0 auto;
+
+        @media screen and (min-width: $flex-snap) {
+            align-items: flex-end;
+
+            .title {
+                align-self: flex-end;
+                flex: 0 0 310px;
+            }
+
+            .thumbnail {
+                img {
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        @media screen and (max-width: $flex-snap) {
+            flex-direction: column;
+            align-items: center;
+
+            .title {
+                flex: 0 0 auto;
+            }
+
+            .thumbnail {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .thumbnail {
+            margin-right: 15px;
+            margin-bottom: 0px;
+            border: 0px !important;
+            min-height: 270px;
+        }
+
+        .title {
+            color: #333;
+            font-size: 3em;
+        }
+
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}
