@@ -9,6 +9,18 @@ header div {
     flex: 1 1 auto;
 }
 
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header h2 {   
+    color: #000;
+}
+
 header .header-title small { 
     color: #999;
 }
@@ -23,7 +35,23 @@ header .header-nav a {
     color: #999;
 }
 
+header .header-nav a:hover {
+    margin: 5px;
+    font-weight: 500;
+    color: #09f;
+}
+
 header .header-nav a.active {
     border: 0px;
     color: #000;
+}
+
+svg {
+    transition: all 0.2s ease;
+    transform: scale(1);
+}
+
+svg:hover {
+    transform: scale(1.2);
+    color: #09f;
 }

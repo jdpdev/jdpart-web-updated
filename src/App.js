@@ -13,8 +13,8 @@ import SelectedImage from './SelectedImage';
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route path="/image/:id" element={<SelectedImage />} />
           <Route path="/" element={<Printmaking />} />
