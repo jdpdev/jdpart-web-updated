@@ -14,11 +14,11 @@ export default function Header() {
           </Link>
         </div>
         <div className="header-nav">
-            <a href="https://www.etsy.com/shop/jdpdraws" target="_blank">store</a>
-            <a href="https://www.instagram.com/jdpdraws/" target="_blank">
+            <a href="https://www.etsy.com/shop/jdpdraws" target="_blank" rel="noopener noreferrer">store</a>
+            <a href="https://www.instagram.com/jdpdraws/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="mailto:jdpart@jasondupertuis.com" target="_blank">
+            <a href="mailto:jdpart@jasondupertuis.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
         </div>

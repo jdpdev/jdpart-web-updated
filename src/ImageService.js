@@ -145,10 +145,6 @@ function isPainting(image) {
     return image.type === ImageType.Painting;
 }
 
-function isDrawing(image) {
-    return image.type === ImageType.Drawing;
-}
-
 function getNext(image) {
     let list = [];
 

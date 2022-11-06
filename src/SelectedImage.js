@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom';
-import portfolio from './portfolio.json';
 
 import "./SelectedImage.css"
 import { usePortfolioStore } from './usePortfolioStore';
@@ -37,6 +36,7 @@ export default function SelectedImage() {
                                     <a 
                                         href={image.store}
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         Available for Sale
                                     </a>
@@ -58,8 +58,4 @@ export default function SelectedImage() {
             }
         </>
     )
-}
-
-function findImage(id) {
-    return portfolio.items.find(i => i.id === id);
 }
