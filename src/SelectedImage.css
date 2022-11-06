@@ -44,6 +44,7 @@
 
 .extra-images-container {
     margin-top: 2em;
+    padding-left: 2em;
 
     display: flex;
     flex-flow: wrap;

@@ -25,32 +25,30 @@ export default function SelectedImage() {
                     <img src={image.images[0].url.full} alt={image.title} />
                 </div>
                 <div className="details">
-                    <p>
-                        <h4>{image.title}</h4>
-                        <blockquote>
-                            {image.description}<br/>
-                            {image.year}
-                            {
-                                image.store &&
-                                <p>
-                                    <a 
-                                        href={image.store}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Available for Sale
-                                    </a>
-                                </p>
-                            }
-                        </blockquote>
-                    </p>
+                    <h4>{image.title}</h4>
+                    <blockquote>
+                        {image.description}<br/>
+                        {image.year}
+                        {
+                            image.store &&
+                            <p>
+                                <a 
+                                    href={image.store}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Available for Sale
+                                </a>
+                            </p>
+                        }
+                    </blockquote>
                 </div>
             </div>
             {
                 image.images.length > 1 &&
                 <div className='extra-images-container'>
                     { image.images.slice(1).map((img, i) => (
-                        <div>
+                        <div key={img.url.thumb}>
                             <img src={img.url.thumb} alt={img.title} key={image.id + "-" + i} />
                         </div>
                     )) }

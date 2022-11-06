@@ -35,7 +35,7 @@ export function Events() {
 
 function EventItem({ event }) {
     return (
-        <div class="event-item">
+        <div className="event-item">
             <h4>{ event.name }</h4>
             <blockquote>
                 { event.location }<br/>
