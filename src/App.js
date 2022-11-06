@@ -11,6 +11,7 @@ import Printmaking from './Printmaking';
 import SelectedImage from './SelectedImage';
 import { usePortfolioStore } from './usePortfolioStore';
 import { Events } from './Events';
+import { Contact } from './Contact';
 
 function App() {
   const fetchImages = usePortfolioStore((state) => state.fetch);
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/image/:id" element={<SelectedImage />} />
           <Route path="/calendar" element={<Events />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Printmaking />} />
         </Routes>
       </Router>

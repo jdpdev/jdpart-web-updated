@@ -21,9 +21,9 @@ export default function Header() {
             <a href="https://www.instagram.com/jdpdraws/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="mailto:jdpart@jasondupertuis.com" target="_blank" rel="noopener noreferrer">
+            <Link to="/contact">
               <FontAwesomeIcon icon={faEnvelope} />
-            </a>
+            </Link>
         </div>
     </header>
   )
