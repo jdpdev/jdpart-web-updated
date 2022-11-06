@@ -1,0 +1,16 @@
+.events-page {
+    padding: 2em;
+}
+
+.events-page > h4 {
+    width: 80%;
+    border-bottom: 1px solid #999;
+}
+
+.event-list {
+    padding-left: 1em;
+}
+
+.event-list h4 {
+    margin-bottom: 0.5em;
+}

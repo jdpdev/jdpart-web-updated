@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Pop-up at MOSAIC at Chatham Park",
+        "datetime": "Nov 12, 1-4 PM",
+        "location": "Pittsboro, NC",
+        "type": "event",
+        "url": ""
+    },
+    {
+        "name": "Durham Art Walk Holiday Market",
+        "datetime": "Nov 19-20",
+        "location": "Durham, NC",
+        "type": "event",
+        "url": "https://durhamarts.org/art-walk/"
+    },
+    {
+        "name": "Makrs Holiday Fest",
+        "datetime": "Dec 10, 11-6 PM",
+        "location": "Fayetteville St, Raleigh, NC",
+        "type": "event",
+        "url": "https://www.themakrssociety.com/fayetteville-street"
+    },
+    {
+        "name": "Sunday Patchwork Market",
+        "datetime": "Dec 11, 12-4 PM",
+        "location": "Durham Armory, Durham, NC",
+        "type": "event",
+        "url": "https://thepatchworkmarket.com/"
+    },
+    {
+        "name": "Asheville Print Studio",
+        "datetime": "",
+        "location": "River Arts District, Asheville, NC",
+        "type": "store",
+        "url": "https://www.ashevilleprintstudio.com/"
+    },
+    {
+        "name": "Triangle Pop-up Holiday Shop",
+        "datetime": "Nov 1 - Dec 24",
+        "location": "Crabtree Valley Mall, Raleigh, NC",
+        "type": "store",
+        "url": "https://www.instagram.com/thepopupholidayshop/"
+    }
+]

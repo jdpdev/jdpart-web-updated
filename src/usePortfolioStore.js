@@ -3,6 +3,7 @@ import { ImageData } from './ImageService';
 
 export const usePortfolioStore = create((set, get) =>({
     images: [],
+    events: [],
     fetch: async () => {
         if (get().images.length > 0) {
             return;
@@ -12,7 +13,13 @@ export const usePortfolioStore = create((set, get) =>({
         const items = await response.json();
         set({ images: items.items.map(i => new ImageData(i)) });
     },
-    getImage: (id) => {
-        return get().images.find(i => i.id === id);
+    fetchEvents: async () => {
+        if (get().events.length > 0) {
+            return;
+        }
+
+        const response = await fetch('/events.json');
+        const items = await response.json();
+        set({ events: items });
     }
 }))

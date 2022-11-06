@@ -14,6 +14,9 @@ export default function Header() {
           </Link>
         </div>
         <div className="header-nav">
+            <Link to='/calendar'>
+              upcoming events
+            </Link>
             <a href="https://www.etsy.com/shop/jdpdraws" target="_blank" rel="noopener noreferrer">store</a>
             <a href="https://www.instagram.com/jdpdraws/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />

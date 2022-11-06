@@ -10,12 +10,15 @@ import './App.css';
 import Printmaking from './Printmaking';
 import SelectedImage from './SelectedImage';
 import { usePortfolioStore } from './usePortfolioStore';
+import { Events } from './Events';
 
 function App() {
   const fetchImages = usePortfolioStore((state) => state.fetch);
+  const fetchEvents = usePortfolioStore((state) => state.fetchEvents);
 
   useEffect(() => {
     fetchImages();
+    fetchEvents();
   }, []);
 
   return (
@@ -24,6 +27,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/image/:id" element={<SelectedImage />} />
+          <Route path="/calendar" element={<Events />} />
           <Route path="/" element={<Printmaking />} />
         </Routes>
       </Router>

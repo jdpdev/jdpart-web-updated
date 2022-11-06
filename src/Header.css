@@ -26,7 +26,9 @@ header .header-title small {
 }
 
 header .header-nav {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
 }
 
 header .header-nav a {
