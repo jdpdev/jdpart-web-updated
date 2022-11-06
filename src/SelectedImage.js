@@ -1,35 +1,49 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom';
-import portfolio from './portfolio.json'
+import portfolio from './portfolio.json';
 
 import "./SelectedImage.css"
+import { usePortfolioStore } from './usePortfolioStore';
 
 export default function SelectedImage() {
     const params = useParams();
-    const image = findImage(params.id);
+    const images = usePortfolioStore((state) => state.images);
+
+    if (images.length === 0) {
+        return null;
+    }
+
+    const image = images.find(i => i.id === params.id);
+
+    if (image == null) {
+        return null;
+    }
 
     return (
         <>
             <div className="image-container">
                 <div className="image">
-                    <img src={image.images[0].url.full} alt={image.id} />
+                    <img src={image.images[0].url.full} alt={image.title} />
                 </div>
                 <div className="details">
                     <p>
-                        {image.description}
+                        <h4>{image.title}</h4>
+                        <blockquote>
+                            {image.description}<br/>
+                            {image.year}
+                            {
+                                image.store &&
+                                <p>
+                                    <a 
+                                        href={image.store}
+                                        target="_blank"
+                                    >
+                                        Available for Sale
+                                    </a>
+                                </p>
+                            }
+                        </blockquote>
                     </p>
-                    <p>
-                        {image.year}
-                    </p>
-                    {
-                        image.store &&
-                        <p>
-                            <a 
-                                href={image.store}
-                                target="_blank"
-                            >View in the store...</a>
-                        </p>
-                    }
                 </div>
             </div>
             {
@@ -37,7 +51,7 @@ export default function SelectedImage() {
                 <div className='extra-images-container'>
                     { image.images.slice(1).map((img, i) => (
                         <div>
-                            <img src={img.url.thumb} alt={image.id + "-" + i} />
+                            <img src={img.url.thumb} alt={img.title} key={image.id + "-" + i} />
                         </div>
                     )) }
                 </div>

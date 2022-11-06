@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -9,8 +9,15 @@ import Header from './Header'
 import './App.css';
 import Printmaking from './Printmaking';
 import SelectedImage from './SelectedImage';
+import { usePortfolioStore } from './usePortfolioStore';
 
 function App() {
+  const fetchImages = usePortfolioStore((state) => state.fetch);
+
+  useEffect(() => {
+    fetchImages();
+  }, []);
+
   return (
     <div className="App">
       <Router>

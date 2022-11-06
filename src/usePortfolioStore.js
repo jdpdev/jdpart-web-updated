@@ -8,8 +8,11 @@ export const usePortfolioStore = create((set, get) =>({
             return;
         }
 
-        const response = await fetch('portfolio.json');
+        const response = await fetch('/portfolio.json');
         const items = await response.json();
         set({ images: items.items.map(i => new ImageData(i)) });
+    },
+    getImage: (id) => {
+        return get().images.find(i => i.id === id);
     }
 }))

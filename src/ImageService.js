@@ -93,19 +93,7 @@ export class ImageData {
     }
 
     get images() {
-        const list = [];
-
-        for (let img of this._data.images) {
-            if (img.imgur) {
-                list.push(`https://i.imgur.com/${img.imgur.id}.jpg`);
-            }
-
-            if (img.url) {
-                list.push(img.url.full);
-            }
-        }
-
-        return list;
+        return this._data.images;
     }
 
     get thumb() {
