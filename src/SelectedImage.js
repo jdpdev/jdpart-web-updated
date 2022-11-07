@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 import "./SelectedImage.css"
 import { usePortfolioStore } from './usePortfolioStore';
@@ -20,6 +21,9 @@ export default function SelectedImage() {
 
     return (
         <>
+            <Helmet>
+                <title>{image.title} | printmaking | jason dupertuis </title>
+            </Helmet>
             <div className="image-container">
                 <div className="image">
                     <img src={image.images[0].url.full} alt={image.title} />

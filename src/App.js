@@ -4,6 +4,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 import Header from './Header' 
 import './App.css';
@@ -24,6 +25,10 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <title>printmaking | jason dupertuis</title>
+        <meta name="description" content="ordinary printmaking, with feeling" />
+      </Helmet>
       <Router>
         <Header />
         <Routes>
