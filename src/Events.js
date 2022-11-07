@@ -1,5 +1,6 @@
 import React from 'react';
 import { usePortfolioStore } from './usePortfolioStore';
+import { Helmet } from "react-helmet";
 
 import './Events.css';
 
@@ -36,6 +37,9 @@ export function Events() {
 function EventItem({ event }) {
     return (
         <div className="event-item">
+            <Helmet>
+                <title>upcoming events | printmaking | jason dupertuis</title>
+            </Helmet>
             <h4>{ event.name }</h4>
             <blockquote>
                 { event.location }<br/>

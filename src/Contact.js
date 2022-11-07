@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import './Contact.css';
 
 export function Contact() {
     return (
         <div className='contact-page'>
+            <Helmet>
+                <title>contact | printmaking | jason dupertuis</title>
+            </Helmet>
             <div>
                 <h4>Contact Information</h4>
                 <blockquote>

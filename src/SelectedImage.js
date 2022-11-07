@@ -22,7 +22,7 @@ export default function SelectedImage() {
     return (
         <>
             <Helmet>
-                <title>{image.title} | printmaking | jason dupertuis </title>
+                <title>{image.title} | printmaking | jason dupertuis</title>
             </Helmet>
             <div className="image-container">
                 <div className="image">
