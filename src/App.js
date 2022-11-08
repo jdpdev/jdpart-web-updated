@@ -28,6 +28,8 @@ function App() {
       <Helmet>
         <title>printmaking | jason dupertuis</title>
         <meta name="description" content="ordinary printmaking, with feeling" />
+        <meta name="og:description" content="ordinary printmaking, with feeling" />
+        <meta name="twitter:description" content="ordinary printmaking, with feeling" />
       </Helmet>
       <Router>
         <Header />

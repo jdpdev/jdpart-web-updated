@@ -23,6 +23,8 @@ export default function SelectedImage() {
         <>
             <Helmet>
                 <title>{image.title} | printmaking | jason dupertuis</title>
+                <meta property="og:image" content={image.images[0].url.thumb} />
+                <meta property="twitter:image" content={image.images[0].url.thumb} />
             </Helmet>
             <div className="image-container">
                 <div className="image">
