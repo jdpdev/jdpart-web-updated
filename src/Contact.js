@@ -12,7 +12,7 @@ export function Contact() {
                 <h4>Contact Information</h4>
                 <blockquote>
                     <p>
-                        <b>Email</b> <a href="mailto:jdpart@jasondupertuis.com">jdpart@jasondupertuis.com</a>
+                        <b>Email</b> <a href="mailto:jason@jdpprintmaking.com">jason@jdpprintmaking.com</a>
                     </p>
                     <p>
                         Direct Message on <b>Instagram</b> <a href="https://www.instagram.com/jdpdraws/">@jdpdraws</a>
