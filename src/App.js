@@ -40,6 +40,9 @@ function App() {
           <Route path="/" element={<Printmaking />} />
         </Routes>
       </Router>
+      <div className='footer'>
+        &copy; { new Date().getFullYear() } Jason DuPertuis, all rights reserved
+      </div>
     </div>
   );
 }

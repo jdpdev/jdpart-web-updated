@@ -17,3 +17,9 @@ a.active {
   border: 1px solid #eee;
   border-bottom: 0px;
 }
+
+.footer {
+  padding: 2em;
+  font-style: italic;
+  font-size: 0.75em;
+}
