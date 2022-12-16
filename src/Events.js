@@ -11,23 +11,30 @@ export function Events() {
         return null;
     }
 
+    const stores = events.filter(e => e.type === 'store')
+    const markets = events.filter(e => e.type === 'event')
+
     return (
         <div className='events-page'>
             <h4>Galleries and Stores</h4>
             <div className='event-list'>
+                {
+                    stores.length === 0 &&
+                    <i>nothing scheduled right now, more coming soon</i>
+                }
                 { 
-                    events
-                        .filter(e => e.type === 'store')
-                        .map(e => <EventItem event={e} key={e.name} />)
+                    stores.map(e => <EventItem event={e} key={e.name} />)
                 }
             </div>
 
             <h4>Upcoming Events</h4>
             <div className='event-list'>
+                {
+                    markets.length === 0 &&
+                    <i>nothing scheduled right now, more coming soon</i>
+                }
                 { 
-                    events
-                        .filter(e => e.type === 'event')
-                        .map(e => <EventItem event={e} key={e.name} />)
+                    markets.map(e => <EventItem event={e} key={e.name} />)
                 }
             </div>
         </div>
