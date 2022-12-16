@@ -6,6 +6,7 @@ import "./Gallery.css"
 
 export default function Tile({ image }) {
   const id = image.id;
+  const titleLines = image.title.split(': ');
 
   return (
       <Link key={id} to={'/image/' + id}>
@@ -13,6 +14,11 @@ export default function Tile({ image }) {
               <LazyLoadImage
                   src={image.thumb}
               />
+              <div className='image-info'>
+                {
+                    titleLines.map(l => <div>{ l }</div>)
+                }
+              </div>
           </div>
       </Link>
   )

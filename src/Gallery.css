@@ -20,16 +20,48 @@
 }
 
 .gallery .tiles .gallery-tile {
-    margin: 5px;
+    position: relative;
+
+    margin: 8px;
     flex: 1 1 auto;
 
     width: 300px;
     height: 300px;
     overflow: hidden;
+
+    transition: all 200ms ease;
+    transform: scale(1, 1);
+}
+
+.gallery .tiles .gallery-tile:hover {
+    transform: scale(1.05, 1.05);
 }
 
 .gallery .tiles .gallery-tile img {
     width: 100%;
+}
+
+.gallery .tiles .gallery-tile .image-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 0.7em);
+    padding: 0.35em;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-style: italic;
+    opacity: 0;
+    transition: opacity 200ms ease;
+}
+
+.gallery .tiles .gallery-tile:hover .image-info {
+    opacity: 1;
+}
+
+.gallery .tiles .gallery-tile .image-info div:first-child {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: normal;
 }
     
 .gallery .selected-image {
