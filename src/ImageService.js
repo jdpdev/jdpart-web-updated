@@ -72,9 +72,18 @@ export class ImageService {
 export class ImageData {
     _data = null;
 
-    constructor(data) {
+    constructor(data, fullRoot, thumbRoot) {
         if (data == null) {
             throw new Error("Must provide image data to ImageData");
+        }
+
+        for (let i = 0; i < data.images.length; i++) {
+            const img = data.images[i];
+            img.url.full = fullRoot + img.url.full;
+
+            if (img.url.thumb) {
+                img.url.thumb = thumbRoot + img.url.thumb;
+            }
         }
 
         this._data = data;

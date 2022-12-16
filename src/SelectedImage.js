@@ -54,8 +54,13 @@ export default function SelectedImage() {
                 image.images.length > 1 &&
                 <div className='extra-images-container'>
                     { image.images.slice(1).map((img, i) => (
-                        <div key={img.url.thumb}>
-                            <img src={img.url.thumb} alt={img.title} key={image.id + "-" + i} />
+                        <div key={img.url.full}>
+                            <img
+                                style={{ maxWidth: '400px' }} 
+                                src={img.url.full} 
+                                alt={img.title} 
+                                key={image.id + "-" + i} 
+                            />
                         </div>
                     )) }
                 </div>

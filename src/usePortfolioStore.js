@@ -11,7 +11,7 @@ export const usePortfolioStore = create((set, get) =>({
 
         const response = await fetch('/portfolio.json');
         const items = await response.json();
-        set({ images: items.items.map(i => new ImageData(i)) });
+        set({ images: items.items.map(i => new ImageData(i, items.fullRoot, items.thumbRoot)) });
     },
     fetchEvents: async () => {
         if (get().events.length > 0) {
