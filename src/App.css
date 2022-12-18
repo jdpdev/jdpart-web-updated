@@ -23,3 +23,9 @@ a.active {
   font-style: italic;
   font-size: 0.75em;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-bottom: 8em;
+  }
+}

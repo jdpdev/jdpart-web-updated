@@ -29,6 +29,7 @@
 
 .image-container .details {
     font-size: 120%;
+    background-color: white;
 }
 
 .image-container .details .img-title {
@@ -78,8 +79,23 @@
     .image-container .details {
         position: fixed;
         left: 0px;
-        right: 0px;
+        width: 100%;
         bottom: 0px;
         padding: 5px;
+        
+        display: flex;
+
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .image-container .details h4 {
+        flex: 0 0 auto;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .image-container .details h4 {
+        max-width: 33%;
     }
 }
