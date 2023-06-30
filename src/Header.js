@@ -17,8 +17,8 @@ export default function Header() {
             <Link to='/calendar'>
               upcoming events
             </Link>
-            <a href="https://www.etsy.com/shop/jdpdraws" target="_blank" rel="noopener noreferrer">store</a>
-            <a href="https://www.instagram.com/jdpdraws/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.etsy.com/shop/jdpprintmaking" target="_blank" rel="noopener noreferrer">store</a>
+            <a href="https://www.instagram.com/jdpprintmaking/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <Link to="/contact">

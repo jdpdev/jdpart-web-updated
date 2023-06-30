@@ -3,6 +3,402 @@
     "thumbRoot": "https://jdpprintmaking-1d7d7.kxcdn.com/thumb/",
     "items": [
         {
+            "id": "killdeer",
+            "title": "Killdeer: Birds of North America",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "killdeer-full.jpg",
+                        "thumb": "killdeer-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "killdeer-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "greatblueheron",
+            "title": "Great Blue Heron: Birds of North America",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "great-blue-heron-full.jpg",
+                        "thumb": "great-blue-heron-full.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "wanthug",
+            "title": "Billy the Misunderstood Kaiju",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "want-hug-full.jpg",
+                        "thumb": "want-hug-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "want-hug-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "oakbutterfly",
+            "title": "Oak Butterfly",
+            "type": "Printmaking",
+            "description": "Wood on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "oak-butterfly-full.jpg",
+                        "thumb": "oak-butterfly-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "oak-butterfly-detail-1.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "oak-butterfly-detail-2.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "olive",
+            "title": "Olive",
+            "type": "Printmaking",
+            "description": "Wood on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "olive-no2-full.jpg",
+                        "thumb": "olive-no2-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "olive-no1-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "green-olive-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "pink-olive-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "blue-olive-full.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "morningglow",
+            "title": "Morning Glow",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "morning-glow-full.jpg",
+                        "thumb": "morning-glow-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "morning-glow-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "neonroadtrip",
+            "title": "Neon Road Trip",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "neon-road-trip-full.jpg",
+                        "thumb": "neon-road-trip-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "neon-road-trip-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nightsgoneby",
+            "title": "Nights Gone By",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "nights-gone-by-full.jpg",
+                        "thumb": "nights-gone-by-full.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "hazymorningsun",
+            "title": "Hazy Morning Sun",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "hazy-morning-sun-full.jpg",
+                        "thumb": "hazy-morning-sun-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "hazy-morning-sun-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "shadowmoon",
+            "title": "By the Shadow of the Moon",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "shadow-moon-full.jpg",
+                        "thumb": "shadow-moon-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "shadow-moon-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "threecedars",
+            "title": "Three Cedars",
+            "type": "Printmaking",
+            "description": "Wood on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "three-cedars-full.jpg",
+                        "thumb": "three-cedars-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "three-cedars-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "night",
+            "title": "Night",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "night-full.jpg",
+                        "thumb": "night-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "night-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bnagrackle",
+            "title": "Common Grackle: Birds of North America",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2022",
+            "images": [
+                {
+                    "url": {
+                        "full": "grackle-full.jpg",
+                        "thumb": "grackle-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "grackle-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bnachickadee",
+            "title": "Carolina Chickadee: Birds of North America",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2022",
+            "images": [
+                {
+                    "url": {
+                        "full": "chickadee-full.jpg",
+                        "thumb": "chickadee-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "chickadee-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "brewingstorm",
+            "title": "Brewing Storm",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2022",
+            "images": [
+                {
+                    "url": {
+                        "full": "brewing-storm-full.jpg",
+                        "thumb": "brewing-storm-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "brewing-storm-detail-1.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "brewing-storm-detail-2.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "engravings",
+            "title": "Engraved Portraits",
+            "type": "Printmaking",
+            "description": "Engraving on paper",
+            "year": "2022",
+            "images": [
+                {
+                    "url": {
+                        "full": "engraved-portrait-2.jpg",
+                        "thumb": "engraved-portrait-2.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "engraved-portrait-1.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "womaninblack",
+            "title": "Woman in Black",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2022",
+            "images": [
+                {
+                    "url": {
+                        "full": "woman-in-black-full.jpg",
+                        "thumb": "woman-in-black-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "woman-in-black-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "abstractmountain1",
+            "title": "Abstract Mountain",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2022",
+            "images": [
+                {
+                    "url": {
+                        "full": "abstract-mountain-1-full.jpg",
+                        "thumb": "abstract-mountain-1-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "abstract-mountain-1-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "theyseeeverything",
+            "title": "They See Everything",
+            "type": "Printmaking",
+            "description": "Linocut on paper",
+            "year": "2022",
+            "images": [
+                {
+                    "url": {
+                        "full": "they-see-everything-full.jpg",
+                        "thumb": "they-see-everything-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "they-see-everything-detail.jpg"
+                    }
+                }
+            ]
+        },
+        
+        {
             "id": "reccyFCVF8VCerCQX",
             "title": "Portrait with a Fan",
             "type": "Printmaking",

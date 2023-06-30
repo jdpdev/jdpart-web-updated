@@ -7,10 +7,31 @@
         "url": "https://www.ashevilleprintstudio.com/"
     },
     {
-        "name": "Triangle Pop-up Holiday Shop",
-        "datetime": "Nov 1 - Dec 24",
-        "location": "Crabtree Valley Mall, Raleigh, NC",
-        "type": "store",
-        "url": "https://www.instagram.com/thepopupholidayshop/"
+        "name": "Enofest",
+        "datetime": "July 1 & 4, 2023",
+        "location": "West Point on the Eno, Durham, NC",
+        "type": "event",
+        "url": "https://www.enofest.org/"
+    },
+    {
+        "name": "Summer Patchwork Market",
+        "datetime": "August 6, 2023",
+        "location": "Durham Armory, Durham, NC",
+        "type": "event",
+        "url": "https://www.thepatchworkmarket.com/"
+    },
+    {
+        "name": "Lazy Daze Arts and Crafts Festival",
+        "datetime": "August 26-27, 2023",
+        "location": "Downtown Cary, NC",
+        "type": "event",
+        "url": "https://www.carync.gov/recreation-enjoyment/events/festivals/lazy-daze-arts-and-crafts-festival"
+    },
+    {
+        "name": "CenterFest Arts Festival",
+        "datetime": "September 16-17, 2023",
+        "location": "Downtown Durham, NC",
+        "type": "event",
+        "url": "https://durhamarts.org/centerfest/"
     }
 ]
