@@ -55,12 +55,14 @@ export default function SelectedImage() {
                 <div className='extra-images-container'>
                     { image.images.slice(1).map((img, i) => (
                         <div key={img.url.full}>
-                            <img
-                                style={{ maxWidth: '400px' }} 
-                                src={img.url.full} 
-                                alt={img.title} 
-                                key={image.id + "-" + i} 
-                            />
+                            <a href={img.url.full} target='_blank' style={{ cursor: "zoom-in" }}>
+                                <img
+                                    style={{ maxWidth: '400px' }} 
+                                    src={img.url.full} 
+                                    alt={img.title} 
+                                    key={image.id + "-" + i} 
+                                />
+                            </a>
                         </div>
                     )) }
                 </div>

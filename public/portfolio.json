@@ -58,66 +58,6 @@
             ]
         },
         {
-            "id": "oakbutterfly",
-            "title": "Oak Butterfly",
-            "type": "Printmaking",
-            "description": "Wood on paper",
-            "year": "2023",
-            "images": [
-                {
-                    "url": {
-                        "full": "oak-butterfly-full.jpg",
-                        "thumb": "oak-butterfly-full.jpg"
-                    }
-                },
-                {
-                    "url": {
-                        "full": "oak-butterfly-detail-1.jpg"
-                    }
-                },
-                {
-                    "url": {
-                        "full": "oak-butterfly-detail-2.jpg"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "olive",
-            "title": "Olive",
-            "type": "Printmaking",
-            "description": "Wood on paper",
-            "year": "2023",
-            "images": [
-                {
-                    "url": {
-                        "full": "olive-no2-full.jpg",
-                        "thumb": "olive-no2-full.jpg"
-                    }
-                },
-                {
-                    "url": {
-                        "full": "olive-no1-full.jpg"
-                    }
-                },
-                {
-                    "url": {
-                        "full": "green-olive-full.jpg"
-                    }
-                },
-                {
-                    "url": {
-                        "full": "pink-olive-full.jpg"
-                    }
-                },
-                {
-                    "url": {
-                        "full": "blue-olive-full.jpg"
-                    }
-                }
-            ]
-        },
-        {
             "id": "morningglow",
             "title": "Morning Glow",
             "type": "Printmaking",
@@ -208,6 +148,66 @@
                 {
                     "url": {
                         "full": "shadow-moon-detail.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "oakbutterfly",
+            "title": "Oak Butterfly",
+            "type": "Printmaking",
+            "description": "Wood on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "oak-butterfly-full.jpg",
+                        "thumb": "oak-butterfly-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "oak-butterfly-detail-1.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "oak-butterfly-detail-2.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "olive",
+            "title": "Olive",
+            "type": "Printmaking",
+            "description": "Wood on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "olive-no2-full.jpg",
+                        "thumb": "olive-no2-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "pink-olive-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "olive-no1-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "green-olive-full.jpg"
+                    }
+                },
+                {
+                    "url": {
+                        "full": "blue-olive-full.jpg"
                     }
                 }
             ]
