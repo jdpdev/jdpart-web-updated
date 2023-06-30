@@ -53,6 +53,15 @@
     gap: 2em;
 }
 
+.extra-images-container img {
+    cursor: zoom-in;
+    transition: 0.2s ease all;
+}
+
+.extra-images-container img:hover {
+    transform: scale(1.05);
+}
+
 @media screen and (min-width: 768px) {
     .image-container {
         display: flex;
