@@ -20,7 +20,8 @@
                         "full": "killdeer-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "greatblueheron",
@@ -35,7 +36,8 @@
                         "thumb": "great-blue-heron-full.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "wanthug",
@@ -55,7 +57,8 @@
                         "full": "want-hug-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Kaiju" ]
         },
         {
             "id": "morningglow",
@@ -75,7 +78,8 @@
                         "full": "morning-glow-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Reduction Print" ]
         },
         {
             "id": "neonroadtrip",
@@ -95,7 +99,8 @@
                         "full": "neon-road-trip-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Reduction Print" ]
         },
         {
             "id": "nightsgoneby",
@@ -110,7 +115,8 @@
                         "thumb": "nights-gone-by-full.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Reduction Print" ]
         },
         {
             "id": "hazymorningsun",
@@ -130,7 +136,8 @@
                         "full": "hazy-morning-sun-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Reduction Print" ]
         },
         {
             "id": "shadowmoon",
@@ -150,7 +157,8 @@
                         "full": "shadow-moon-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Reduction Print" ]
         },
         {
             "id": "oakbutterfly",
@@ -175,7 +183,8 @@
                         "full": "oak-butterfly-detail-2.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Wood Prints" ]
         },
         {
             "id": "olive",
@@ -210,7 +219,8 @@
                         "full": "blue-olive-full.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Wood Prints" ]
         },
         {
             "id": "threecedars",
@@ -230,7 +240,8 @@
                         "full": "three-cedars-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Wood Prints" ]
         },
         {
             "id": "night",
@@ -250,7 +261,8 @@
                         "full": "night-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "bnagrackle",
@@ -270,7 +282,8 @@
                         "full": "grackle-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "bnachickadee",
@@ -290,7 +303,8 @@
                         "full": "chickadee-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "brewingstorm",
@@ -335,7 +349,8 @@
                         "full": "engraved-portrait-1.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "womaninblack",
@@ -355,7 +370,8 @@
                         "full": "woman-in-black-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "abstractmountain1",
@@ -426,7 +442,8 @@
                         "full": "47e5a324.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "recoa1YNGLVlBzyCm",
@@ -456,7 +473,8 @@
                         "thumb": "IMG_1244.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "recRJSSOjnMD4CBzS",
@@ -471,7 +489,8 @@
                         "thumb": "IMG_0323.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "rec4cP4nvm5TZraPT",
@@ -486,7 +505,8 @@
                         "thumb": "IMG_0326.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "rec6Bv9Uf84ckydtx",
@@ -501,7 +521,8 @@
                         "thumb": "IMG_0325.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Birds of North America" ]
         },
         {
             "id": "rec6eXRyLZqSB3L4h",
@@ -551,7 +572,8 @@
                         "full": "sargent_yellow-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "recIZdXNQcOxuTr3m",
@@ -649,7 +671,8 @@
                         "full": "016.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "rectBdiqnlh5lUpsq",
@@ -675,7 +698,8 @@
                         "full": "020.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "reckLsmcTlMC16X39",
@@ -753,7 +777,8 @@
                         "full": "hipster-framed.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "rec0RBMFQErlrTen8",
@@ -795,7 +820,8 @@
                         "full": "crown-framed.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "recXdem43WyLaGJkl",
@@ -853,7 +879,8 @@
                         "thumb": "DSC_0815.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "recHfAxID5ctE3Jd6",
@@ -868,7 +895,8 @@
                         "thumb": "SZY5QTY.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         },
         {
             "id": "rec6cdm10P9yJQ4dR",
@@ -888,7 +916,8 @@
                         "full": "evelyn_blue-framedscene.jpg"
                     }
                 }
-            ]
+            ],
+            "tags": [ "Portraits" ]
         }
     ]
 }
