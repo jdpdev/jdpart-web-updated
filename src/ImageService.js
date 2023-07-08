@@ -144,6 +144,18 @@ export class ImageData {
     get type() {
         return this._data.type;
     }
+
+    get selling() {
+        return this._data.selling;
+    }
+
+    get retired() {
+        return this._data.retired;
+    }
+
+    get editions() {
+        return this._data.editions;
+    }
 }
 
 function isPrint(image) {

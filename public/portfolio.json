@@ -21,7 +21,13 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 30"
+            ],
+            "store": "https://www.etsy.com/listing/1502163596/birds-of-north-america-original-hand"
         },
         {
             "id": "greatblueheron",
@@ -37,7 +43,13 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 20"
+            ],
+            "store": "https://www.etsy.com/listing/1516355239/great-blue-heron-original-hand-made"
         },
         {
             "id": "wanthug",
@@ -58,7 +70,13 @@
                     }
                 }
             ],
-            "tags": [ "Kaiju" ]
+            "tags": [ "Kaiju" ],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 100"
+            ],
+            "store": "https://www.etsy.com/listing/1516357743/billy-the-misunderstood-kaiju-original"
         },
         {
             "id": "morningglow",
@@ -79,7 +97,12 @@
                     }
                 }
             ],
-            "tags": [ "Reduction Print" ]
+            "tags": [ "Reduction Print" ],
+            "retired": true,
+            "selling": true,
+            "editions": [
+                "Edition of 20"
+            ]
         },
         {
             "id": "neonroadtrip",
@@ -100,7 +123,12 @@
                     }
                 }
             ],
-            "tags": [ "Reduction Print" ]
+            "tags": [ "Reduction Print" ],
+            "retired": true,
+            "selling": true,
+            "editions": [
+                "Edition of 20"
+            ]
         },
         {
             "id": "nightsgoneby",
@@ -116,7 +144,12 @@
                     }
                 }
             ],
-            "tags": [ "Reduction Print" ]
+            "tags": [ "Reduction Print" ],
+            "retired": true,
+            "selling": true,
+            "editions": [
+                "Edition of 19"
+            ]
         },
         {
             "id": "hazymorningsun",
@@ -137,7 +170,12 @@
                     }
                 }
             ],
-            "tags": [ "Reduction Print" ]
+            "tags": [ "Reduction Print" ],
+            "retired": true,
+            "selling": true,
+            "editions": [
+                "Edition of 18"
+            ]
         },
         {
             "id": "shadowmoon",
@@ -158,7 +196,12 @@
                     }
                 }
             ],
-            "tags": [ "Reduction Print" ]
+            "tags": [ "Reduction Print" ],
+            "retired": true,
+            "selling": true,
+            "editions": [
+                "Edition of 20"
+            ]
         },
         {
             "id": "oakbutterfly",
@@ -184,7 +227,13 @@
                     }
                 }
             ],
-            "tags": [ "Wood Prints" ]
+            "tags": [ "Wood Prints" ],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 50"
+            ],
+            "store": "https://www.etsy.com/listing/1503462658/oak-butterfly-original-hand-made"
         },
         {
             "id": "olive",
@@ -220,7 +269,13 @@
                     }
                 }
             ],
-            "tags": [ "Wood Prints" ]
+            "tags": [ "Wood Prints" ],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition, varies by version"
+            ],
+            "store": "https://www.etsy.com/listing/1517650511/olive-wood-prints-original-hand-made"
         },
         {
             "id": "threecedars",
@@ -241,7 +296,12 @@
                     }
                 }
             ],
-            "tags": [ "Wood Prints" ]
+            "tags": [ "Wood Prints" ],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 50"
+            ]
         },
         {
             "id": "night",
@@ -262,7 +322,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "bnagrackle",
@@ -283,7 +345,13 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": true,
+            "selling": true,
+            "editions": [
+                "Edition of 40"
+            ],
+            "store": "https://www.etsy.com/listing/1502163596/birds-of-north-america-original-hand"
         },
         {
             "id": "bnachickadee",
@@ -304,7 +372,13 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 100"
+            ],
+            "store": "https://www.etsy.com/listing/1502163596/birds-of-north-america-original-hand"
         },
         {
             "id": "brewingstorm",
@@ -329,7 +403,10 @@
                         "full": "brewing-storm-detail-2.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true,
+            "store": "https://www.etsy.com/listing/1503448834/brewing-storm-original-hand-made"
         },
         {
             "id": "engravings",
@@ -350,7 +427,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": true,
+            "selling": true
         },
         {
             "id": "womaninblack",
@@ -371,7 +450,10 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": false,
+            "selling": true,
+            "store": "https://www.etsy.com/listing/1503453058/woman-in-black-original-hand-made"
         },
         {
             "id": "abstractmountain1",
@@ -391,7 +473,10 @@
                         "full": "abstract-mountain-1-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true,
+            "store": "https://www.etsy.com/listing/1208747559/abstract-mountain-original-linocut-block"
         },
         {
             "id": "theyseeeverything",
@@ -411,7 +496,9 @@
                         "full": "they-see-everything-detail.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true
         },
         
         {
@@ -443,7 +530,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "recoa1YNGLVlBzyCm",
@@ -458,13 +547,15 @@
                         "thumb": "IMG_1226.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "rect3xCmlQF9gsnB3",
             "title": "Northern Cardinal: Birds of North America",
             "type": "Printmaking",
-            "description": "Linocut on paper, limited edition of 20",
+            "description": "Reduction linocut on paper",
             "year": "2022",
             "images": [
                 {
@@ -474,7 +565,12 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": true,
+            "selling": false,
+            "editions": [
+                "Edition of 20"
+            ]
         },
         {
             "id": "recRJSSOjnMD4CBzS",
@@ -490,7 +586,10 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": false,
+            "selling": true,
+            "store": "https://www.etsy.com/listing/1502163596/birds-of-north-america-original-hand"
         },
         {
             "id": "rec4cP4nvm5TZraPT",
@@ -506,7 +605,10 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": false,
+            "selling": true,
+            "store": "https://www.etsy.com/listing/1502163596/birds-of-north-america-original-hand"
         },
         {
             "id": "rec6Bv9Uf84ckydtx",
@@ -522,7 +624,10 @@
                     }
                 }
             ],
-            "tags": [ "Birds of North America" ]
+            "tags": [ "Birds of North America" ],
+            "retired": false,
+            "selling": true,
+            "store": "https://www.etsy.com/listing/1502163596/birds-of-north-america-original-hand"
         },
         {
             "id": "rec6eXRyLZqSB3L4h",
@@ -537,7 +642,9 @@
                         "thumb": "5DBD431D-F2CB-4DA7-B820-6AF42D9163CD.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "recssaqOvjmZR6Zzm",
@@ -573,7 +680,13 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": false,
+            "selling": false,
+            "editions": [
+                "Red background, edition of 5",
+                "Yellow background, edition of 2"
+            ]
         },
         {
             "id": "recIZdXNQcOxuTr3m",
@@ -614,7 +727,9 @@
                         "full": "geometry_triangle-framedscene.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": true,
+            "selling": true
         },
         {
             "id": "reca7zlJi4T5w4NkL",
@@ -645,7 +760,9 @@
                         "full": "mountain_reflection-framedscene_cropped.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "recmktJFUzqY60Mbo",
@@ -672,7 +789,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "rectBdiqnlh5lUpsq",
@@ -699,7 +818,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "reckLsmcTlMC16X39",
@@ -725,7 +846,9 @@
                         "full": "022.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "reccLHiM9qruvZG0k",
@@ -751,7 +874,9 @@
                         "full": "023.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "rec69SIs8uG5Bl0Un",
@@ -778,7 +903,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": true,
+            "selling": false
         },
         {
             "id": "rec0RBMFQErlrTen8",
@@ -794,11 +921,13 @@
                         "thumb": "skateboard-front.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": false,
+            "selling": true
         },
         {
             "id": "recpKOgVZOXwTQhN2",
-            "title": "Raining Queen",
+            "title": "Crowned Queen",
             "type": "Printmaking",
             "description": "Linocut on Paper",
             "year": "2019",
@@ -821,7 +950,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": true,
+            "selling": false
         },
         {
             "id": "recXdem43WyLaGJkl",
@@ -847,7 +978,9 @@
                         "full": "sunrise-framed.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": true,
+            "selling": false
         },
         {
             "id": "recAijnKmFqHDl6be",
@@ -863,7 +996,9 @@
                         "thumb": "XuqdlVH.jpg"
                     }
                 }
-            ]
+            ],
+            "retired": true,
+            "selling": false
         },
         {
             "id": "rec5pTNfqwstQ94sc",
@@ -880,7 +1015,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": true,
+            "selling": false
         },
         {
             "id": "recHfAxID5ctE3Jd6",
@@ -896,7 +1033,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": true,
+            "selling": false
         },
         {
             "id": "rec6cdm10P9yJQ4dR",
@@ -917,7 +1056,9 @@
                     }
                 }
             ],
-            "tags": [ "Portraits" ]
+            "tags": [ "Portraits" ],
+            "retired": true,
+            "selling": true
         }
     ]
 }

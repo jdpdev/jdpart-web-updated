@@ -19,6 +19,8 @@ export default function SelectedImage() {
         return null;
     }
 
+    console.log(image, image.selling, image.editions)
+
     return (
         <>
             <Helmet>
@@ -35,17 +37,19 @@ export default function SelectedImage() {
                     <blockquote>
                         {image.description}<br/>
                         {image.year}
+                        <p>
+                            { getSaleInfo(image) }
+                        </p>
+
                         {
-                            image.store &&
-                            <p>
-                                <a 
-                                    href={image.store}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Available for Sale
-                                </a>
-                            </p>
+                            image.editions && image.editions.length > 0 &&
+                            <div>
+                                <ul>
+                                    { 
+                                        image.editions.map(e => <li>{e}</li>)
+                                    }
+                                </ul>
+                            </div>
                         }
                     </blockquote>
                 </div>
@@ -55,7 +59,7 @@ export default function SelectedImage() {
                 <div className='extra-images-container'>
                     { image.images.slice(1).map((img, i) => (
                         <div key={img.url.full}>
-                            <a href={img.url.full} target='_blank' style={{ cursor: "zoom-in" }}>
+                            <a href={img.url.full} target='_blank' style={{ cursor: "zoom-in" }} rel="noopener noreferrer">
                                 <img
                                     style={{ maxWidth: '400px' }} 
                                     src={img.url.full} 
@@ -69,4 +73,26 @@ export default function SelectedImage() {
             }
         </>
     )
+}
+
+function getSaleInfo(image) {
+    if (image.store) {
+        return (<a 
+            href={image.store}
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Available for Sale
+        </a>)
+    } else if (image.selling) {
+        return (<a 
+            href="https://www.etsy.com/shop/jdpprintmaking"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Contact for availability
+        </a>)
+    } else {
+        return "Not for sale"
+    }
 }
