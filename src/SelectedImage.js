@@ -37,9 +37,6 @@ export default function SelectedImage() {
                     <blockquote>
                         {image.description}<br/>
                         {image.year}
-                        <p>
-                            { getSaleInfo(image) }
-                        </p>
 
                         {
                             image.editions && image.editions.length > 0 &&
@@ -51,6 +48,10 @@ export default function SelectedImage() {
                                 </ul>
                             </div>
                         }
+                        
+                        <p>
+                            { getSaleInfo(image) }
+                        </p>
                     </blockquote>
                 </div>
             </div>
