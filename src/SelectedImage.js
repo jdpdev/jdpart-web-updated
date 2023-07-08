@@ -48,7 +48,7 @@ export default function SelectedImage() {
                                 </ul>
                             </div>
                         }
-                        
+
                         <p>
                             { getSaleInfo(image) }
                         </p>
@@ -77,22 +77,24 @@ export default function SelectedImage() {
 }
 
 function getSaleInfo(image) {
-    if (image.store) {
-        return (<a 
-            href={image.store}
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Available for Sale
-        </a>)
-    } else if (image.selling) {
-        return (<a 
-            href="https://www.etsy.com/shop/jdpprintmaking"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Contact for availability
-        </a>)
+    if (image.selling) {
+        if (image.store) {
+            return (<a 
+                href={image.store}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Available for Sale
+            </a>)
+        } else {
+            return (<a 
+                href="https://www.etsy.com/shop/jdpprintmaking"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Contact for availability
+            </a>)
+        }
     } else {
         return "Not for sale"
     }
