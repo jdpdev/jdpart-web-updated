@@ -3,6 +3,69 @@
     "thumbRoot": "https://jdpprintmaking-1d7d7.kxcdn.com/thumb/",
     "items": [
         {
+            "id": "earlysummit",
+            "title": "Early Summit",
+            "type": "Printmaking",
+            "description": "Linocut, ink on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "early-summit-full.jpg",
+                        "thumb": "early-summit.jpg"
+                    }
+                }
+            ],
+            "tags": [],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 20"
+            ]
+        },
+        {
+            "id": "mooretheatre",
+            "title": "Moore Theatre, Seattle, WA",
+            "type": "Printmaking",
+            "description": "Linocut, ink on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "moore-theatre-full.jpg",
+                        "thumb": "moore-theatre.jpg"
+                    }
+                }
+            ],
+            "tags": [],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 20"
+            ]
+        },
+        {
+            "id": "surfbird",
+            "title": "Surfbird",
+            "type": "Printmaking",
+            "description": "Linocut, ink on paper",
+            "year": "2023",
+            "images": [
+                {
+                    "url": {
+                        "full": "surfbird-full.jpg",
+                        "thumb": "surfbird.jpg"
+                    }
+                }
+            ],
+            "tags": [],
+            "retired": false,
+            "selling": true,
+            "editions": [
+                "First edition of 23"
+            ]
+        },
+        {
             "id": "killdeer",
             "title": "Killdeer: Birds of North America",
             "type": "Printmaking",
